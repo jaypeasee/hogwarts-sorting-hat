@@ -15,4 +15,4 @@ run `npm install`
 
 Run `npm test tests/warlock-test.js` and pass the Warlock Class with `warlock.js` and `warlock-test.js`
 
-Run `npm test tests/sorting-hat-test.js` and pass the Hat Class with `sorting-hat.js` and `sorting-hat-test.js` running
+Once the Warlock test is complete, run `npm test tests/sorting-hat-test.js` and pass the Hat Class with `sorting-hat.js` and `sorting-hat-test.js`
