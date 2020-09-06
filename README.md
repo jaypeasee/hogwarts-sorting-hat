@@ -1,7 +1,7 @@
 # The Hogwarts Sorting Hat
 
 ## Description
-The Sorting Hat has a very important duty every fall at Hogwarts. The hat's job is to place new students into one of Hogwarts' four prestigious houses. Where the student ends up, can define who they are as a wizard, the choices they make in life, and what they will go on to accomplish.
+The Sorting Hat has a very important duty every fall at Hogwarts School of Witchcraft and Wizardry. The hat's job is to place new students into one of the school's four prestigious houses. Where the student ends up, can define who they are as a wizard, the choices they make in life, and what they will go on to accomplish.
 
 In this test suite, you will be making a class for a warlock and a class for a sorting hat to create a framework for how students get properly matched with their friends and wizarding community.
 
