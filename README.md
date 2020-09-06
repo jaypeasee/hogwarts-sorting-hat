@@ -1,5 +1,18 @@
-First run `npm install`
+# The Hogwarts Sorting Hat
 
-Pass the Student Class first with `warlock.js` and `warlock-test.js` running `npm test tests/warlock-test.js`
+## Description
+The sorting hat has a very important duty every fall at Hogwarts. The hat's job is to place new students into one of Hogwarts' four prestigious houses. Where the student ends up, can define who they are as a wizard, the choices they make in life, and what they will go on to accomplish.
 
-Then pass the Hat Class with `sorting-hat.js` and `sorting-hat-test.js` running `npm test tests/sorting-hat-test.js`
+In this test suite, you will be making a class for a warlock and a class for a sorting hat to create a framework for how students get properly matched with their friends and wizarding culture.
+
+## Steps to completion
+
+Fork this repositorty and clone it down
+
+cd into the directory
+
+run `npm install`
+
+Run `npm test tests/warlock-test.js` and pass the Warlock Class with `warlock.js` and `warlock-test.js`
+
+Run `npm test tests/sorting-hat-test.js` and pass the Hat Class with `sorting-hat.js` and `sorting-hat-test.js` running
