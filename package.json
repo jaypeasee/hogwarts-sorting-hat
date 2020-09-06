@@ -1,0 +1,19 @@
+{
+  "name": "hogwarts-sorting-hat",
+  "version": "1.0.0",
+  "description": "Hogwarts Sorting Hat",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaypeasee/hogwarts-sorting-hat.git"
+  },
+  "author": "JP Carey",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
