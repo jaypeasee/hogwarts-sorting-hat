@@ -1,7 +1,3 @@
-//gryffindor traits: courageous, original, determined, chivalrous, proud
-//ravenclaw traits: creative, logical, polite, curious, compliant
-//slytherin traits: cunning, resourceful, confident, ambitious, entitled
-//hufflepuff traits: loyal, modest, empathetic, lazy, gregarious
 var assert = require('chai').assert;
 var Hat = require('../exercises/sorting-hat');
 var Warlock = require('../exercises/warlock');
