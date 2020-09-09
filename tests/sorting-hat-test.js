@@ -8,11 +8,11 @@ var Warlock = require('../exercises/warlock');
 
 describe('Hat', function() {
 
-it('should be a function', function() {
+it.skip('should be a function', function() {
   assert.isFunction(Hat);
 });
 
-it('should have a list of Hogwarts houses', function() {
+it.skip('should have a list of Hogwarts houses', function() {
 
   var sortingHat = new Hat("belligerent");
 
@@ -22,21 +22,21 @@ it('should have a list of Hogwarts houses', function() {
   assert.deepEqual(sortingHat.slytherins, []);
 });
 
-it('should have a list of students to sort', function() {
+it.skip('should have a list of students to sort', function() {
 
   var sortingHat = new Hat("poised");
 
   assert.deepEqual(sortingHat.unplacedStudents, []);
 });
 
-it('should have a mood', function() {
+it.skip('should have a mood', function() {
 
   var sortingHat = new Hat("sassy");
 
   assert.equal(sortingHat.mood, "sassy");
 });
 
-it('should sing', function() {
+it.skip('should sing', function() {
 
   var sortingHat = new Hat("political");
   var george = new Warlock("George Weasley", "original");
@@ -57,7 +57,7 @@ it('should sing', function() {
   assert.deepEqual(sortingHat.unplacedStudents[4].name, "George Weasley");
 });
 
-it('should not sing to students unless they are enrolled at Hogwarts', function() {
+it.skip('should not sing to students unless they are enrolled at Hogwarts', function() {
   var sortingHat = new Hat("enraged")
   var snape = new Warlock("Severus Snape", "resourceful");
   var james = new Warlock("James Potter", "original");
@@ -83,7 +83,7 @@ it('should not sing to students unless they are enrolled at Hogwarts', function(
   assert.deepEqual(sortingHat.unplacedStudents.length, 6);
 });
 
-it('should place students in houses based on their traits', function() {
+it.skip('should place students in houses based on their traits', function() {
   var sortingHat = new Hat('giddy');
   var malfoy = new Warlock('Draco Malfoy', 'entitled');
   var cedric = new Warlock('Cedric Diggory', 'modest');
@@ -107,7 +107,7 @@ it('should place students in houses based on their traits', function() {
 
 });
 
-it('The student should go to their house after they are sorted', function() {
+it.skip('The student should go to their house after they are sorted', function() {
 
   var sortingHat = new Hat("aggressive");
   var dumbledore = new Warlock("Albus Dumbledore", "courageous")
@@ -146,7 +146,7 @@ it('The student should go to their house after they are sorted', function() {
 
 });
 
-it('students should exclaim their house after being placed', function() {
+it.skip('students should exclaim their house after being placed', function() {
 
   var sortingHat = new Hat("overwhelmed");
   var tonks = new Warlock("Nymphadora Tonks", "gregarious");
@@ -179,7 +179,7 @@ it('students should exclaim their house after being placed', function() {
 })
 
 
-it('should have no more students to place after sorting them', function() {
+it.skip('should have no more students to place after sorting them', function() {
 
   var sortingHat = new Hat("relieved");
   var harry = new Warlock("Harry Potter", "courageous");
